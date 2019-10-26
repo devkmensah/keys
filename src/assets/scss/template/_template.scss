@@ -1,0 +1,281 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+html,
+body,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.header {
+  .columns {
+    padding-bottom: 25px;
+    img {
+      width: 150px;
+      padding-right: 30px !important;
+    }
+    .logo {
+      color: $primary-color;
+      font-weight: 600;
+      font-size: 35px;
+      .keys {
+        color: $primary-color;
+        font-weight: 600;
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+.details {
+  .content {
+    .columns {
+      .confirmation {
+        font-weight: 600;
+        font-size: 35px;
+        color: $secondary-color;
+      }
+      p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .house {
+    .columns {
+      padding-bottom: 45px;
+    }
+  }
+
+  .location {
+    .columns {
+      padding-bottom: 25px;
+      h1 {
+        font-weight: 500;
+        font-size: 25px;
+        color: $secondary-color;
+        padding-bottom: 5px;
+      }
+      .seven {
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .address {
+    .columns {
+      padding-bottom: 25px;
+      p {
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+      a {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .access {
+    .columns {
+      padding-bottom: 25px;
+      h6 {
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 600;
+        color: $secondary-color;
+        padding-bottom: 5px;
+      }
+      a {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .check {
+    .columns {
+      padding-bottom: 25px;
+      h6 {
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+      span {
+        font-size: 18px;
+        font-weight: 600;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .guest {
+    .columns {
+      padding-bottom: 50px;
+      h6 {
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+      }
+      span {
+        font-size: 18px;
+        font-weight: 600;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .btn-1 {
+    .columns {
+      padding-bottom: 50px;
+      .top {
+        color: #ffffff;
+        padding: 15px 80px 15px 80px;
+        background: $primary-color;
+        background-color: $primary-color;
+        font-size: 14px;
+        border-radius: 3px;
+      }
+    }
+  }
+  .btn-2 {
+    .columns {
+      .bottom {
+        color: #ffffff;
+        padding: 15px 70px 15px 70px;
+        background: $primary-color;
+        background-color: $primary-color;
+        font-size: 14px;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  .agent {
+    .columns {
+      padding-top: 50px;
+      padding-bottom: 30px;
+      img {
+        width: 150px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .jess {
+    .columns {
+      padding-bottom: 50px;
+      h1 {
+        font-weight: 500;
+        font-size: 25px;
+        color: $secondary-color;
+        padding-bottom: 5px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+        padding-bottom: 5px;
+      }
+      .call {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+        padding-bottom: 5px;
+      }
+      .email {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .rules {
+    .columns {
+      padding-bottom: 30px;
+      border-bottom: 1px dotted #cccccc;
+      h1 {
+        font-weight: 500;
+        font-size: 25px;
+        color: $secondary-color;
+        padding-bottom: 5px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        color: $secondary-color;
+        padding-bottom: 5px;
+      }
+      .manual {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+      }
+    }
+  }
+
+  .support {
+    .columns {
+      padding-top: 35px;
+      h1 {
+        font-weight: 500;
+        font-size: 25px;
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .guide {
+    border-bottom: 1px dotted #cccccc;
+    padding-bottom: 30px !important;
+    .columns {
+      h1 {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+        padding-bottom: 5px;
+      }
+      span {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color;
+      }
+
+      .visit {
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
+.footer {
+  .columns {
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      color: $secondary-color;
+    }
+    .end {
+      padding-top: 10px;
+    }
+  }
+}
